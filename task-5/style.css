@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+svg{
+    height: 38px;
+    width: auto;
+    
+    color: #dad7cd;
+}
+
+.left-container {
+    display: flex;
+    align-items: center;
+    padding: 5px 0px;
+    background-color: #3a5a40;
+   
+}
+
+button {
+    
+    background-color: 588157;
+    color: #3a5a40;
+    height: 40px;
+    width: 80px;
+    border-radius: 5px;
+
+}
+
+a {
+    height: 100%;
+    width: max-content;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+a:hover > svg {
+    color: #3a5a40;
+}
+
+a:hover {
+    background-color: #dad7cd;
+}
+
+/*.right-container {
+    display: flex;
+    justify-content: flex-end;
+
+}*/
