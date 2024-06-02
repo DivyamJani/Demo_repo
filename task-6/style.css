@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  height: 100vh;
+}
+
+.sidenav {
+  height: 100vh;
+  width: 250px;
+  top: 0;
+  left: 0;
+  background-color: white;
+  padding-top: 20px;
+  padding: 20px;
+  border-right: 1px solid #ddd;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidenav .profile {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.sidenav .profile img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.sidenav a {
+  padding: 10px 8px 10px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #111;
+  display: flex;
+  align-items: center;
+  transition: background-color 0s, color 0.5s;
+  margin-bottom: 10px;
+}
+
+.sidenav a i {
+  margin-right: 10px;
+}
+
+.sidenav a:hover {
+  background-color: red;
+  color: white;
+}
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+    margin-left: 250px; 
+}
