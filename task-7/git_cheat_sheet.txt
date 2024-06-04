@@ -1,0 +1,55 @@
+Local
+
+1. git init
+2. git pull (link of git repo (HTTPS))
+
+To push file
+
+1. git status 
+2. git add .
+3. git commit -m "Added new file"
+4. git remote add origin (link of repo(HTTPS))
+5. git push --set-upstream origin main
+
+
+To change branch name
+git branch -m <old-name> <new-name> 
+
+Number of branches we have
+git branch -a
+
+Merge Branch
+git merge <branch-name>
+
+
+Changes
+1. git init
+2. git pull <url> or git pull --set-upstream origin <branch-name>
+3. git pull
+4. git add <filename> or git add .
+5. git commit or git commit -m "message"
+6. git push or git push --set-upstream-to=origin/<branch-name>
+7. git branch -m <old-name> <new-name> 
+8. git clone <url>
+
+Abort
+git merge -abort
+
+Locally delete branch
+git branch -d or git branch -D 
+		(Forcefully deletes)
+
+
+remote deletes
+git push origin -d <branch name>
+
+
+To change location of git repo
+git 
+git add origin <>
+
+
+Linear Branch
+git rebase feature
+
+
